@@ -1,9 +1,19 @@
 //your JS code here. If required.
-const student={
-	name:"riya"
+// const student={
+// 	name:"riya"
+// }
+
+// Object.prototype.getKeys=function(){
+// 	return Object.keys(this);
+// }
+// console.log(student.getkeys());
+
+const student = {
+    name: "riya"
 }
 
-function getKeys(obj){
-	return Object.keys(obj);
+Object.prototype.getKeys = function() {
+    return Object.keys(this);
 }
-console.log(getkeys(student));
+
+console.log(student.getKeys());
